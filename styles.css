@@ -1,3 +1,125 @@
 body {
-    background-color: aqua;
+    margin: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.sideBar {
+    width: 35vw;
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    z-index: 99;
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    width: 35vw;
+    top: 225px;
+    bottom: 275px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoWords {
+    margin-left: 65px;
+    font-size: 2.5em;
+    color: black;
+    font-family: luminari, fantasy;
+}
+
+.VulturesLogo {
+    width: 150px;
+    height: 150px;
+}
+
+.sidebarBackgroundPicture {
+    width: 35vw;
+    height: 100vh;
+}
+
+.formBar {
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inputs {
+    background-color: beige;
+    height: 45vh;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    height: 45vh;
+    width: 32.5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.right-side {
+    height: 45vh;
+    width: 32.5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.left-side input, .left-side label {
+    margin-left: 100px;
+}
+
+.right-side input, .right-side label {
+    margin-right: 100px;
+}
+
+button {
+    width: 95px;
+    height: 38px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 205px;
+    border-radius: 16px;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    box-shadow: 5px;
 }
