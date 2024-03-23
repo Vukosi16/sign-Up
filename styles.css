@@ -108,6 +108,11 @@ input{
     margin-right: 100px;
 }
 
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
 button {
     width: 95px;
     height: 38px;
@@ -122,4 +127,8 @@ button {
 button:hover {
     background-color: antiquewhite;
     box-shadow: 5px;
+}
+
+.signUpNote {
+    margin-left: 80px;
 }
